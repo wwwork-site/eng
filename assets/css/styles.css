@@ -328,7 +328,7 @@ h3 {
   background-image: linear-gradient(110deg, rgba(10, 25, 18, 0.9), rgba(15, 38, 29, 0.56)),
     var(--hero-image);
   background-size: cover;
-  background-position: center;
+  background-position: var(--hero-position, center);
 }
 
 .hero--short {
@@ -459,6 +459,7 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--media-position, center);
 }
 
 .kpis {
@@ -781,6 +782,7 @@ select:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--media-position, center);
 }
 
 .site-footer {
@@ -931,6 +933,7 @@ select:focus-visible {
   .hero {
     min-height: 67vh;
     padding: 2.8rem 0;
+    background-position: var(--hero-position-mobile, var(--hero-position, center));
   }
 
   .hero--short {
