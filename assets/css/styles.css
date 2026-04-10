@@ -133,7 +133,11 @@ h3 {
 }
 
 .logo-mobile {
-  display: none;
+  display: none !important;
+}
+
+.logo-full {
+  display: inline !important;
 }
 
 .logo .logo-ultimate {
@@ -778,11 +782,11 @@ select:focus-visible {
   }
 
   .logo-full {
-    display: none;
+    display: none !important;
   }
 
   .logo-mobile {
-    display: inline;
+    display: inline !important;
   }
 
   .menu-toggle {
