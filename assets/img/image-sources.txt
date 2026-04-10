@@ -1,12 +1,16 @@
-Unsplash image sources used in this MVP:
+Local image assets used by the site (downloaded and stored in this repo):
 
-- https://images.unsplash.com/photo-1552664730-d307ca884978
-- https://images.unsplash.com/photo-1521791136064-7986c2920216
-- https://images.unsplash.com/photo-1454165804606-c3d57bc86b40
-- https://images.unsplash.com/photo-1523240795612-9a054b0db644
-- https://images.unsplash.com/photo-1526628953301-3e589a6a8b74
-- https://images.unsplash.com/photo-1556740738-b6a63e27c4df
-- https://images.unsplash.com/photo-1460925895917-afdab827c52f
-- https://images.unsplash.com/photo-1517048676732-d65bc937f952
-- https://images.unsplash.com/photo-1497366754035-f200968a6e72
-- https://images.unsplash.com/photo-1551434678-e076c223a692
+- assets/img/hero-index.webp <- https://images.unsplash.com/photo-1552664730-d307ca884978
+- assets/img/index-hr-team.webp <- https://images.unsplash.com/photo-1521791136064-7986c2920216
+- assets/img/index-managers.webp <- https://images.unsplash.com/photo-1454165804606-c3d57bc86b40
+- assets/img/hero-demo.webp <- https://images.unsplash.com/photo-1523240795612-9a054b0db644
+- assets/img/demo-side.webp <- https://images.unsplash.com/photo-1526628953301-3e589a6a8b74
+- assets/img/hero-pricing.webp <- https://images.unsplash.com/photo-1556740738-b6a63e27c4df
+- assets/img/hero-about.webp <- https://images.unsplash.com/photo-1460925895917-afdab827c52f
+- assets/img/about-team.webp <- https://images.unsplash.com/photo-1517048676732-d65bc937f952
+- assets/img/hero-faq.webp <- https://images.unsplash.com/photo-1497366754035-f200968a6e72
+- assets/img/hero-contacts.webp <- https://images.unsplash.com/photo-1551434678-e076c223a692
+
+Notes:
+- Images are now loaded from local files only, without runtime dependency on external CDNs.
+- Keep attribution/licensing checks aligned with Unsplash terms if content is redistributed.
