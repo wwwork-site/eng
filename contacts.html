@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Контакты — EngCore Ultimate</title>
+    <meta
+      name="description"
+      content="Оставьте заявку на внедрение EngCore Ultimate и обсудите пилотный запуск в вашей компании."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="contacts">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"
+          >EngCore <span>Ultimate</span> | Калуга <span class="logo-ranhigs">РАНХиГС</span></a
+        >
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Меню</button>
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index.html" data-page-link="home">Главная</a>
+          <a href="demo.html" data-page-link="demo">Демо</a>
+          <a href="pricing.html" data-page-link="pricing">Тарифы</a>
+          <a href="about.html" data-page-link="about">О проекте</a>
+          <a href="faq.html" data-page-link="faq">FAQ</a>
+          <a href="contacts.html" data-page-link="contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="hero hero--short"
+        style="
+          --hero-image: url('https://images.unsplash.com/photo-1551434678-e076c223a692?fm=webp&auto=format&fit=crop&w=1800&q=80');
+        "
+      >
+        <div class="container hero__content" data-reveal>
+          <span class="eyebrow">Контакты</span>
+          <h1>Обсудим пилот и формат внедрения в вашу команду</h1>
+          <p class="lead">
+            Оставьте заявку, и мы предложим оптимальный сценарий запуска: от быстрого старта до корпоративного
+            масштабирования.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="lead">
+        <div class="container contact-wrap">
+          <aside class="contact-meta" data-reveal>
+            <h3>Что обсудим на первом контакте</h3>
+            <p class="text-muted">роль и уровень английского, который критичен для вашей команды;</p>
+            <p class="text-muted">объем найма или оценки сотрудников на ближайший период;</p>
+            <p class="text-muted">подходящий пакет: Старт, Команда или Корпорация.</p>
+            <p class="badge-disclaimer" style="margin-top: 0.6rem">
+              EngCore Ultimate — не официальный экзамен и не международная сертификация.
+            </p>
+            <p style="margin-top: 1rem"><strong>Email:</strong> <a href="mailto:hello@engcore.io">hello@engcore.io</a></p>
+          </aside>
+
+          <form class="lead-form" id="leadForm" data-reveal>
+            <h2 style="margin-bottom: 0.8rem">Оставить заявку</h2>
+            <div class="form-grid form-grid--two">
+              <label>
+                Имя
+                <input type="text" name="name" required />
+              </label>
+              <label>
+                Компания
+                <input type="text" name="company" required />
+              </label>
+            </div>
+
+            <div class="form-grid form-grid--two">
+              <label>
+                Email
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                Объем найма / команда
+                <input type="text" name="teamSize" placeholder="Например: 20-30 кандидатов в месяц" required />
+              </label>
+            </div>
+
+            <label style="margin-top: 0.85rem">
+              Комментарий
+              <textarea
+                name="message"
+                placeholder="Кратко опишите задачу: роли, география, ожидания от диагностики."
+              ></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit" style="margin-top: 1rem">Отправить заявку</button>
+            <p class="form-note">
+              После отправки откроется ваш почтовый клиент с подготовленным письмом на `hello@engcore.io`.
+            </p>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>EngCore Ultimate</h4>
+          <p>Визуально сильный MVP B2B-сервиса диагностики английского.</p>
+        </div>
+        <div>
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a><br />
+          <a href="demo.html">Демо</a><br />
+          <a href="pricing.html">Тарифы</a>
+        </div>
+        <div>
+          <h4>Почта</h4>
+          <a href="mailto:hello@engcore.io">hello@engcore.io</a><br />
+          <a href="faq.html">FAQ</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        © <span data-current-year></span> EngCore Ultimate. Контакты для партнерств и внедрения.
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

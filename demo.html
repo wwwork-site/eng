@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Демо — EngCore Ultimate</title>
+    <meta
+      name="description"
+      content="Короткое демо EngCore Ultimate: 5 вопросов для первичной оценки английского в B2B-воронке."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="demo">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="index.html"
+          >EngCore <span>Ultimate</span> | Калуга <span class="logo-ranhigs">РАНХиГС</span></a
+        >
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Меню</button>
+        <nav class="primary-nav" id="primary-nav">
+          <a href="index.html" data-page-link="home">Главная</a>
+          <a href="demo.html" data-page-link="demo">Демо</a>
+          <a href="pricing.html" data-page-link="pricing">Тарифы</a>
+          <a href="about.html" data-page-link="about">О проекте</a>
+          <a href="faq.html" data-page-link="faq">FAQ</a>
+          <a href="contacts.html" data-page-link="contacts">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="hero hero--short"
+        style="
+          --hero-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?fm=webp&auto=format&fit=crop&w=1800&q=80');
+        "
+      >
+        <div class="container hero__content" data-reveal>
+          <span class="eyebrow">Демо</span>
+          <h1>Короткий тест для входа в B2B-воронку</h1>
+          <p class="lead">
+            5 вопросов дают быстрый ориентир по английскому. Для финального решения по найму используется расширенная
+            платная диагностика.
+          </p>
+          <p class="hero-note">Результат демо носит предварительный характер и не является сертификацией.</p>
+        </div>
+      </section>
+
+      <section class="section section--alt">
+        <div class="container demo-layout">
+          <div id="demoApp" class="demo-shell" data-reveal>
+            <div class="demo-progress"><span data-demo-progress></span></div>
+            <p class="demo-step" data-demo-step>Вопрос 1 из 5</p>
+            <h2 class="demo-question" data-demo-question></h2>
+            <div class="demo-options" data-demo-options></div>
+
+            <div class="demo-controls">
+              <button class="btn btn-ghost" type="button" data-demo-prev>Назад</button>
+              <button class="btn btn-primary" type="button" data-demo-next>Далее</button>
+            </div>
+
+            <div class="demo-result" data-demo-result hidden>
+              <p class="demo-score" data-demo-score></p>
+              <h3 data-demo-level></h3>
+              <p class="text-muted" data-demo-summary></p>
+              <div class="demo-result-actions">
+                <a class="btn btn-primary" href="contacts.html#lead" data-demo-lead>Оставить заявку на полную оценку</a>
+                <button class="btn btn-secondary" type="button" data-demo-restart>Пройти еще раз</button>
+              </div>
+            </div>
+          </div>
+
+          <aside class="demo-image" data-reveal>
+            <img
+              src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?fm=webp&auto=format&fit=crop&w=1080&q=80"
+              alt="Специалист проходит онлайн-оценку"
+              loading="lazy"
+              decoding="async"
+            />
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container" data-reveal>
+          <span class="eyebrow">После демо</span>
+          <h2 class="section-title">Переведите результат в бизнес-решение</h2>
+          <p class="text-muted">
+            Полученный ориентир помогает быстро принять решение о следующем шаге: продолжать интервью, назначить полную
+            оценку или скорректировать профиль роли.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="contacts.html#lead">Оставить заявку</a>
+            <a class="btn btn-secondary" href="pricing.html">Посмотреть тарифы</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h4>EngCore Ultimate</h4>
+          <p>Инвестиционный MVP платформы для быстрой языковой диагностики в бизнес-среде.</p>
+        </div>
+        <div>
+          <h4>Разделы</h4>
+          <a href="index.html">Главная</a><br />
+          <a href="pricing.html">Тарифы</a><br />
+          <a href="faq.html">FAQ</a>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <a href="contacts.html#lead">Оставить заявку</a><br />
+          <a href="mailto:hello@engcore.io">hello@engcore.io</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        © <span data-current-year></span> EngCore Ultimate. Демо-оценка не является официальной сертификацией.
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/demo.js"></script>
+  </body>
+</html>
